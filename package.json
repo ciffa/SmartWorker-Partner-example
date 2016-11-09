@@ -1,0 +1,36 @@
+{
+  "name": "Jobbliste",
+  "version": "1.0.0",
+  "description": "Jobbliste Microservice POC",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cli-color": "^1.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.13.1",
+    "express-jwt": "^5.1.0",
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.15.1",
+    "mysql": "^2.11.1",
+    "mysql2": "^1.1.0",
+    "source-map-support": "^0.4.3",
+    "utf8": "^2.1.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development nodemon build/backend.bundle.js",
+    "webpack": "webpack -d --config config/webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "webpack": "^1.13.2",
+    "webpack-node-externals": "^1.4.3"
+  }
+}
